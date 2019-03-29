@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\bin\Debug\netcoreapp2.1\Model.deps.json
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.dll
+C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.pdb

@@ -1,0 +1,14 @@
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.deps.json
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.runtimeconfig.json
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.runtimeconfig.dev.json
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.dll
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.pdb
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.RazorAssemblyInfo.cache
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.RazorAssemblyInfo.cs
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.AssemblyInfo.cs
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.RazorTargetAssemblyInfo.cache
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.dll
+C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.pdb
