@@ -12,6 +12,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .v-content__wrap {
-    background: #f8f7f5 !important;
+    background: #cecece !important;
     font-size: 15px !important;
+    font-family: 'Rubik', sans-serif;
 }

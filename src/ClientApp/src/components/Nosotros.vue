@@ -1,11 +1,11 @@
 <template>
  
-<v-container style="padding: 50px !important">
+<v-container style="padding: 40px !important">
     <div class="cardcontainerNosotros ">
     <v-layout  column align-center justify-center>
         <v-flex xs12>
             <v-layout align-center justify-space-between>
-                <v-flex xs12 class="titulo">
+                <v-flex xs12 class="">
                     <h2  class="text-xs-center" data-aos-duration="1000" data-aos="fade-up">
                        ASÍ SOMOS
                     </h2>
@@ -24,7 +24,7 @@
     <div class="cardcontainerNosotros mt-5" id="mision">
              <v-layout wrap align-center justify-center  pb-5 row>
                  <v-flex  xs12  >
-                         <p style="text-align: center !important; color:#1976D2;  padding: 30px ;margin: 0px !important ; ">NUESTRA MISIÓN</p>              
+                         <h2 style="text-align: center !important; color:#059FDE;  padding: 30px ;margin: 0px !important ; ">NUESTRA MISIÓN</h2>              
                 </v-flex> 
                 <v-flex  xs12  >
                      <img style=" width: 100% !important" class="iso"  src="../assets/img/empl.jpg">       
@@ -38,7 +38,7 @@
     </div>
     <div class="cardcontainerNosotros mt-5" id="vision">
           <v-flex  xs12  >
-              <p style="text-align: center !important; color:#1976D2;padding: 30px; margin: 0px !important ;">NUESTRA  VISIÓN</p>             
+              <h2 style="text-align: center !important; color:#059FDE;padding: 30px; margin: 0px !important ;">NUESTRA  VISIÓN</h2>             
           </v-flex> 
           <v-flex  xs12  >  
              <img style=" width: 100% !important" class="iso"  src="../assets/img/vision.jpg">
@@ -51,7 +51,7 @@
     </div>
     <div class="cardcontainerNosotros mt-5" id="compromiso">
             <v-flex  xs12  >
-              <p style="text-align: center !important; color:#1976D2; padding: 30px ;margin: 0px !important ;">NUESTRA INVERSIÓN SOCIAL RESPONSABLE Y SOSTENIBLE</p>             
+              <h2 style="text-align: center !important; color:#059FDE; padding: 30px ;margin: 0px !important ;">NUESTRA INVERSIÓN SOCIAL RESPONSABLE Y SOSTENIBLE</h2>             
             </v-flex> 
             <v-flex  xs12  >     
                     <img style=" width: 100% !important" class="iso"  src="../assets/img/soc.jpg">
@@ -77,10 +77,7 @@ export default {
 .mg {
     margin: 0px 3% 0px 3%;
 }
-.text{
-    padding: 0px 20px !important;
-    text-align: left !important;
-}
+
 .mgi {
     margin: 0px 0% 0px 40% !important;
 }

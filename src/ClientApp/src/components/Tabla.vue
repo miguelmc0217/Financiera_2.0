@@ -2,15 +2,16 @@
 <div class="contenedor">
     <table cellspacing="0">
       <tr>
-        <th v-for="cabe in cabecera" :key="cabe">{{ cabe }}</th>
+        <th v-for="(cabe, key) in cabecera" :key="key">{{ cabe }}</th>
       </tr>
-      <tr v-for="prestamo in data" :key="key">
-            <td >{{ formatPrice(prestamo.Monto)  }}</td>
+      <tr v-for="(prestamo, key) in data" :key="key">
+            <td >{{ prestamo.nombre  }}</td>
+            <td >{{ formatPrice(prestamo.monto)  }}</td>
             <td >{{ prestamo.CantidadCuotas }}</td>
             <td >{{ prestamo.CuotasPagas }}</td>
             <td >{{ prestamo.CuotasRestantes }}</td>
             <td >{{ prestamo.Estado }}</td>
-            <td >{{ prestamo.FechaPago }}</td>
+            <td >{{ prestamo.DiaPago }}</td>
             <td >{{ prestamo.Termina }}</td>
         </tr>
     </table>
@@ -57,7 +58,7 @@ export default {
 }
 table {
     border: 1px solid #d3d3d3;
-    background: #1976D2;
+    background: #059FDE;
     width: 99%;
     height: 400px !important;
     margin: 0px 10px;

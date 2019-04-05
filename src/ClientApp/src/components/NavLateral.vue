@@ -1,13 +1,14 @@
 <template>
 <div>
-  
-    <v-btn v-if="drawer.hideBtnMenu" fab large depressed color="#fff" @click="toggleHide()">  
-        <img src="https://img.icons8.com/material-outlined/30/000000/menu.png">
+    <v-btn fab large depressed color="#059FDE" class="btnMenu" @click="toggleHide()">  
+        <img src="https://img.icons8.com/material-outlined/30/ffffff/menu.png">
     </v-btn>
+
    <v-btn  v-if="drawer.hide" fab small depressed color="#212121" @click="toggleMiniDrawer()" :style=" drawer.mini ? 'left: 42px !important;' : 'left: 200px !important; transform: rotate(180deg);'">  
             <img src="https://img.icons8.com/ios/15/ffffff/forward-filled.png">
     </v-btn>
-    <v-navigation-drawer v-if="drawer.hide" :clipped="drawer.clipped" :permanent="drawer.permanent" :mini-variant="drawer.mini" v-model="drawer.open"    dark app :style=" drawer.mini ? 'width: 60px;  background:#1976D2; ' : 'width: 220px; background:#1976D2; '">
+    <v-navigation-drawer v-if="drawer.hide" :clipped="drawer.clipped" :permanent="drawer.permanent" :mini-variant="drawer.mini" v-model="drawer.open"    dark app :style=" drawer.mini ? 'width: 60px;  background:#059FDE; ' : 'width: 220px; background:#059FDE; '">
+        
     <v-list-tile   >
             <v-list-tile-action v-scroll-to="'#home'" ><img class="iso"  src="../assets/img/iso2.png"></v-list-tile-action>
             <v-list-tile-content>
@@ -200,7 +201,7 @@
             </v-list-tile-content>
         </v-list-tile>
           <v-divider ></v-divider> -->
-         <v-list-tile  :style="drawer.mini ?  ' position: absolute; top: 91%': 'overflow: hidden !important; position: absolute; top: 87%;'   " >
+         <v-list-tile v-if="usuario == null && vista != '/admin'"   :style="drawer.mini ?  ' position: absolute; top: 91%': 'overflow: hidden !important; position: absolute; top: 87%;'   " >
             <v-list-tile-action><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 width="20" height="20"
                 viewBox="0 0 192 192"
@@ -215,7 +216,7 @@
                     style=" fill:#000000; color: #fff !impotant; margin-right: 15px; cursor: pointer;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#ffffff"><path d="M184,24.1875l-64,7.9375v23.875h16v-9.73438l32,-3.98438v107.4375l-32,-3.98438v-9.73438h-16v23.875l64,7.9375zM82,32c-7.73199,0 -14,6.26801 -14,14c0,7.73199 6.26801,14 14,14c7.73199,0 14,-6.26801 14,-14c0,-7.73199 -6.26801,-14 -14,-14zM39.71875,56c-3.18664,0.012 -6.37275,0.66972 -9.35938,1.95312l-0.10938,0.03125l-14.60938,6.75l6.71875,14.53125l14.3125,-6.625h0.03125c0.98879,-0.42038 2.03492,-0.63669 3.07812,-0.64062c1.06537,-0.004 2.1235,0.20437 3.125,0.625l3.75,1.6875l-13.04687,24.04688c-1.072,2.2 -1.62538,4.64612 -1.60938,7.07813c0.024,4.23999 1.6875,8.21874 4.6875,11.21874l19.29688,15.73438l-9.375,27.60938h16.89062l7.625,-22.4375c0.664,-1.90399 0.955,-3.88337 0.875,-5.85937c-0.168,-4.264 -1.97925,-8.212 -5.53125,-11.5l-9.59375,-9.45313l11.90625,-21.95313l2.78125,4.28126c4.42259,6.80767 12.01476,10.92187 20.125,10.92187h12.3125v-16h-12.3125c-2.72177,0 -5.23734,-1.3603 -6.71875,-3.64062l-5.70313,-8.76563v-0.01563c-2.51186,-3.85154 -6.07064,-6.92213 -10.29687,-8.8125l-19.78125,-8.85938l-0.09375,-0.03125c-2.9985,-1.25937 -6.18437,-1.887 -9.375,-1.875zM136,72v16h-16v16h16v16l24,-24zM30.21875,121.3125l-3.40625,4.04688c-1.512,1.68 -3.6655,2.64062 -5.9375,2.64062h-12.875v16h12.875c6.8,0 13.296,-2.89262 18,-8.14062l3.5625,-4.21875l-11.40625,-9.32813c-0.304,-0.304 -0.5245,-0.67999 -0.8125,-1z"></path></g></g></svg></v-list-tile-title>
                  
     
-                <div  v-if="usuario == null" class="text-xs-center">
+                <div   class="text-xs-center">
                     <Login>
                        <v-list-tile-title>Iniciar seccion</v-list-tile-title>
                     </Login>
@@ -227,7 +228,7 @@
     </v-list>
     
     
-    <div :style="drawer.mini ? ' display:none !important; height: 15px !important; overflow: hidden !important;  left: 0px !important; position: absolute; top: 51%; color: #fff !important; ' :' height: 16px !important; overflow: hidden !important; left: 42px !important; position: absolute; top: 95%; color: #fff !important; border-top: 1px solid #feb029'  ">&copy; {{ new Date().getFullYear() }} RaiseTech </div>
+    <div :style="drawer.mini ? ' display:none !important; height: 15px !important; overflow: hidden !important;  left: 0px !important; position: absolute; top: 51%; color: #fff !important; ' :' height: 16px !important; overflow: hidden !important; left: 42px !important; position: absolute; top: 95%; color: #fff !important; border-top: 1px solid #feb029; font-family: Rubik, sans-serif;  '">&copy; {{ new Date().getFullYear() }} RaiseTech </div>
 
      <div :style="drawer.mini ? ' display:none !important; height: 15px !important; overflow: hidden !important;  left: 0px !important; position: absolute; top: 51%; color: #fff !important; ' :' height: 1px !important; overflow: hidden !important; left: 42px !important; position: absolute; top: 9%; color: #fff !important; border-top: 1px solid #feb029'  ">________________</div>
 </v-navigation-drawer>
@@ -246,7 +247,7 @@ export default {
         return {
             drawer: {
                 open: false,
-                clipped: true,
+                clipped: false,
                 permanent: true,
                 mini: false,
                 hide: true,
@@ -264,13 +265,6 @@ export default {
         toggleHide() {
             this.drawer.hide = !this.drawer.hide;     
         },
-        hideResponsiveti() {
-            if(window.innerWidth < 1000   ){
-                this.drawer.hideBtnMenu = true;
-            }else{
-                this.drawer.hideBtnMenu = false;
-            }
-        },
         ...mapMutations([]),
         ...mapActions(['despegableHome','despegableNo','despegablePre']),
         despegableH(){
@@ -283,6 +277,7 @@ export default {
         },
       
     },
+
     computed: {
         vista(){
             return this.$route.fullPath
@@ -291,7 +286,6 @@ export default {
         ...mapState('login',['usuario'])
     },
     created(){
-       this.hideResponsiveti(); 
        if(this.vista === '/login'){
             this.$emit('fullcontenedor')
            this.drawer.hide = false;
@@ -305,9 +299,17 @@ export default {
 </script>
 
 <style>
+.btnMenu{
+  
+  position: fixed !important;
+  z-index:100 !important;
+  left: 5px !important;
+  top: 5px !important;
+}
 .v-list__tile {
     padding: 2px !important;
-
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 .v-btn--floating.v-btn--large {
      width: 40px !important;
@@ -351,4 +353,11 @@ height:150px !important;
 .letras{
     margin-left: 5px !important;
 }
+
+@media (min-width: 1024px) {
+  .btnMenu{
+    display: none !important;
+   
+    }
+} 
 </style>

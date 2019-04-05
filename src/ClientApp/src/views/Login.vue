@@ -4,7 +4,7 @@
     <v-layout  >
         <v-flex xs12 >
             <v-card class="elevation-6 loginE">
-                <v-toolbar  color="#1976D2" dark >
+                <v-toolbar  color="#059FDE" dark >
                     <v-toolbar-title >
                         <img class="logo mt-2 ml-4" src="../assets/img/comple.png">
                     </v-toolbar-title>
@@ -15,13 +15,13 @@
                         <div class="input inputNormal">
                             <v-text-field solo label="Email" v-model="formulario.email"></v-text-field>
                             <v-text-field solo label="Password" @keyup.enter="ingresar" v-model="formulario.password" type="password"></v-text-field>
-                            <!-- <span style="color:#1976D2; cursor: pointer;">Registrate</span> -->
+                            <!-- <span style="color:#059FDE; cursor: pointer;">Registrate</span> -->
                         </div>
                     </v-form>
                 </v-card-text>
                 <v-card-text >
                     <v-layout class=" mt-3 " justify-end>
-                        <v-btn @click="ingresar()" round depressed color="#1976D2" dark>Ingresar</v-btn>
+                        <v-btn @click="ingresar()" round depressed color="#059FDE" dark>Ingresar</v-btn>
                     </v-layout>
                 </v-card-text>
             </v-card>

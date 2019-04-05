@@ -2,18 +2,18 @@
 <v-container>
     <div class="cardcontainer">
         <div class="promo">
-            <h1 data-aos-delay="1000" data-aos="fade-up" class="promoBanner"><span style="color: #1976D2">LLEVATELO FACIL</span> </h1>
+            <h1 data-aos-delay="1000" data-aos="fade-up" class="promoBanner"><span style="color: #059FDE">LLEVATELO FACIL</span> </h1>
             <p data-aos-delay="1200" data-aos="fade-right" class="promoBanner2">Con nuetra baja taza de interés puedes aprovechar la facilidad de nuestros prestamos para hacer crecer tu negocio.</p>
             <v-layout class="btnBanner" wrap justify-end>
                 <v-flex xs12 class=" mt-4 ">
-                    <v-btn @click="irCaculadora()"  v-scroll-to="'#calculadora'" round block depressed color="#1976D2" style="color:#fff !important; z-index:1 !important">Calcular tu prestamo</v-btn>
+                    <v-btn @click="irCaculadora()"  v-scroll-to="'#calculadora'" round block depressed color="#059FDE" style="color:#fff !important; z-index:1 !important; font-family: 'Rubik', sans-serif !important; ">Calcular tu prestamo</v-btn>
                 </v-flex>
                 <v-flex xs12 class="">
-                    <v-btn @click="irSoli()"  v-scroll-to="'#solicitud'" round block depressed color="#feb029" style="color:#fff !important; z-index:1 !important">Solicita tu prestamo</v-btn>
+                    <v-btn @click="irSoli()"  v-scroll-to="'#solicitud'" round block depressed color="#feb029" style="color:#fff !important; z-index:1 !important; font-family: 'Rubik', sans-serif !important; ">Solicita tu prestamo</v-btn>
                 </v-flex>
             </v-layout>
         </div>
-        <img style="width:100% !important; height: 100% !important; border-radius: 2px !important; position:relative; top:-500px;  " src="../assets/img/mano1.png" alt="">
+        <img class="imgbanner" src="../assets/img/mano1.png" alt="">
 </div>
 </v-container>
 </template>
@@ -58,14 +58,13 @@ export default {
     position: relative;
     filter: blur(0.1px);
     top: 0px;
-
     left: 45%;
     z-index: 1;
 }
 
 .promoBanner {
     font-size: 9vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #fff;
     position: absolute;
     top: 20%;
@@ -77,8 +76,7 @@ export default {
 
 .promoBanner2 {
     font-size: 2vw;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
     color: #fff;
     position: absolute;
     line-height: 5vh;
@@ -88,9 +86,7 @@ export default {
 }
 
 .btnBanner {
-
     position: absolute;
-
     top: 55%;
     left: -68%;
     width: 100%;
@@ -102,15 +98,35 @@ export default {
     height: 500px;
     box-shadow: 0 0px 5px 0px #212121 !important;
     overflow: hidden;
+    background: #212121;
 
 }
-
+.imgbanner{
+    width:100% !important;
+    height: 100% !important; 
+    border-radius: 2px !important;
+    position:relative;
+    top:-500px;
+}
 @media (max-width:1024px) {
-    .cardcontainer {
+    .promoBanner2 {
 
         display: none;
 
     }
+    .imgbanner{
+      display: none;
+    }
+    .promo {
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #212121 100%);
+    height: 400px;
+    width: 71vw;
+    position: relative;
+    filter: blur(0.1px);
+    top: 0px;
+    left: 50%;
+    z-index: 1;
+}
 }
 
 @media (max-width:1270px) {

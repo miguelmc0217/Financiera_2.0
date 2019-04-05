@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import login from './login'
+import Prestamos from './Prestamos'
 
 Vue.use(Vuex)
 
@@ -8,7 +9,7 @@ export default new Vuex.Store({
     state: {
         notificacion: {
             msj: '',
-            color: '#1976D2',
+            color: '#059FDE',
             visible: false
         },
         ocupado: {
@@ -17,9 +18,9 @@ export default new Vuex.Store({
             mensaje: ''
         },
         despliegue: {
-            despegablen:false,
-            despegableh:false,
-            despegablep:false
+            despegablen: false,
+            despegableh: false,
+            despegablep: false
         }
     },
     mutations: {
@@ -44,26 +45,27 @@ export default new Vuex.Store({
             state.ocupado.visible = false;
         },
 
-     
+
     },
     actions: {
-        despegableHome({state}){
-            state.despliegue.despegableh = !state.despliegue.despegableh;  
-            state.despliegue.despegablen = false;  
+        despegableHome({ state }) {
+            state.despliegue.despegableh = !state.despliegue.despegableh;
+            state.despliegue.despegablen = false;
         },
-        despegableNo({state}){
-            state.despliegue.despegablen = !state.despliegue.despegablen;   
-            state.despliegue.despegableh = false;    
+        despegableNo({ state }) {
+            state.despliegue.despegablen = !state.despliegue.despegablen;
+            state.despliegue.despegableh = false;
         },
-       
-         despegablePre({state}){
-            state.despliegue.despegablep = !state.despliegue.despegablep;   
+
+        despegablePre({ state }) {
+            state.despliegue.despegablep = !state.despliegue.despegablep;
         },
     },
     getters: {
 
     },
     modules: {
-        login
+        login,
+        Prestamos
     }
 })

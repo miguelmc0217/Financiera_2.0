@@ -1,5 +1,5 @@
 <template>
-<v-container style="padding: 50px !important">
+<v-container style="padding: 40px !important">
     <div class="cardcontainerNosotros">
         <v-layout column align-center justify-center>
             <v-flex xs12>
@@ -222,7 +222,7 @@
                     </div>
                 </v-flex>
                 <v-flex xs12 class="mt-4 mb-5">
-                    <v-btn block round depressed color="#1976D2" style="color:#fff !important; z-index:1 !important">Enviar</v-btn>
+                    <v-btn block round depressed color="#059FDE" style="color:#fff !important; z-index:1 !important; font-family: 'Rubik', sans-serif !important; ">Enviar</v-btn>
                 </v-flex>
             </v-layout>
         </v-form>
@@ -233,10 +233,28 @@
 
 <script>
 import 'aos/dist/aos.css';
+
 export default {
     data() {
         return {
-
+            Solicitud:{
+                Nombre:'',
+                Apellido:'',
+                Correo:'',
+                electoral:'',
+                Telefono:'',
+                Celular:'',
+                Empresa:'',
+                Sueldo:'',
+                ingresos:'',
+                Cantidad:'',
+                Nombreg:'',
+                Apellidog:'',
+                Correog:'',
+                electoralg:'',
+                Telefonog:'',
+                Celularg:''
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 <template>
-<v-container  style="padding: 50px !important">
+<v-container  style="padding: 40px !important">
     <div class="cardcontainerNosotros  " >
 <v-layout column align-center justify-center >
         <v-flex xs12>
@@ -32,7 +32,7 @@
                             <span class="rubik-regular pr-2" style="font-size: 17px;">Tasa anual:</span>
                         </v-flex>
                         <v-flex>
-                            <h5 style="color: #1976D2; font-size: 17px;">18%</h5>
+                            <h5 style="color: #059FDE; font-size: 17px;">18%</h5>
                         </v-flex>
                     </v-layout>
                 </div>
@@ -95,7 +95,7 @@
         </v-layout>
         <!-- <v-layout  wrap justify-end>
               <v-flex xs2  class="mt-4 "> -->
-              <v-btn @click="calcularNow()" block round depressed color="#1976D2" style="color:#fff !important; z-index:1 !important">Calcular</v-btn>
+              <v-btn @click="calcularNow()" block round depressed color="#059FDE" style="color:#fff !important; z-index:1 !important; font-family: 'Rubik', sans-serif !important; ">Calcular</v-btn>
             <!-- </v-flex>
         </v-layout> -->
        

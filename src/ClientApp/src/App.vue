@@ -1,19 +1,18 @@
 <template>
 <v-app>
-
-    <!-- <NavHeader ></NavHeader> -->
+    <NavHeader/>
     <NavLateral @onContenedor="cambiaAncho()"></NavLateral>
-    <v-content v-if="activeConte" :style="contenedor ? 'padding: 0px 0px 0px 0px !important' : 'padding: 0px 0px 0px 0px  !important' ">
+    <v-content v-if="activeConte" :style="contenedor ? 'padding: 0px 0px 0px 0px !important' : 'padding: 0px 0px 0px 0px  !important' " class="">
         <router-view></router-view>
     </v-content>
-    <v-content v-else :style="contenedor ? 'padding: 0px 0px 0px 220px !important' : 'padding: 0px 0px 0px 60px  !important' ">
+    <v-content v-else :class="{'full' : contenedor, 'mini' : !contenedor }" >
         <router-view></router-view>
     </v-content>
 
 
     <v-snackbar v-model="notificacion.visible" :color="notificacion.color" style="height: 30px !important; padding: 5px !important;" multi-line top :timeout="4000" dark>
       {{notificacion.msj }}
-      <v-btn round depressed color="#1976D2" dark @click="ocultarNotificacion">
+      <v-btn round depressed color="#059FDE" dark @click="ocultarNotificacion">
         Cerrar
       </v-btn>
     </v-snackbar>
@@ -21,7 +20,7 @@
 
     <v-dialog v-model="ocupado.visible" max-width="400" persistent>
       <v-card class="CardA">
-        <v-toolbar color="#1976D2" dark card>
+        <v-toolbar color="#059FDE" dark card>
           <v-toolbar-title >
             <img class="logo mt-2 " src="./assets/img/comple.png">
           </v-toolbar-title>
@@ -30,7 +29,7 @@
           {{ ocupado.mensaje }}
         </v-card-text>
         <v-card-text>
-          <v-progress-linear :indeterminate="true" color="#1976D2"></v-progress-linear>
+          <v-progress-linear :indeterminate="true" color="#059FDE"></v-progress-linear>
         </v-card-text>
       </v-card>
     </v-dialog>
@@ -75,11 +74,12 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i|Rubik:400,400i,500,500i,700,700i,900,900i');
+
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 24px;
-    color: #212121;
-    font-weight: bold;
+    color: #059FDE;
     text-align: center;
     padding: 20px;
 
@@ -92,9 +92,18 @@ h2 {
     text-align: center;
  
 }
-
-.full {
-    padding: 0px 0px 0px 0px !important;
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(32, 32, 32);
+    padding: 0px 20px !important;
+    text-align: left !important;
+}
+.mini{
+  padding: 0px 0px 0px 60px  !important
+}
+.full{
+  padding: 0px 0px 0px 220px !important 
 }
 .v-snack--multi-line .v-snack__content {
     height: 40px !important; 
@@ -118,5 +127,13 @@ h2 {
 }
 .v-card{
     min-height: 200px !important;
+}
+@media (max-width: 1024px) {
+  .mini{
+  padding: 60px 0px 0px 0px   !important
+}
+.full{
+  padding: 60px 0px 0px 0px  !important 
+}
 }
 </style>

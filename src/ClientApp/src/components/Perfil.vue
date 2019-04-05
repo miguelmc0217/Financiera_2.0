@@ -1,5 +1,5 @@
 <template>
-<v-container  mt-5 style="padding: 50px !important">
+<v-container  mt-5 style="padding: 40px !important">
    
       <v-layout mt-5 column align-center justify-center>
         <v-flex xs12>
@@ -147,7 +147,7 @@
             </v-flex>
              
              <v-flex xs12  class="mt-4 mb-5">
-              <v-btn   block color="#1976D2" style="color:#fff !important; z-index:1 !important;">Guardar</v-btn>
+              <v-btn   block color="#059FDE" style="color:#fff !important; z-index:1 !important; font-family: 'Rubik', sans-serif !important; ;">Guardar</v-btn>
             </v-flex>
         </v-layout>
     </v-form>

@@ -17,13 +17,13 @@
                             <v-text-field solo label="Email" v-model="formulario.email"></v-text-field>
                             <v-text-field solo label="Password" @keyup.enter="ingresar" v-model="formulario.password" type="password"></v-text-field>
                             <v-text-field solo label="Repeat Password" @keyup.enter="ingresar" v-model="formulario.password" type="password"></v-text-field>
-                            <span style="color:#1976D2; cursor: pointer;">Login</span>
+                            <span style="color:#059FDE; cursor: pointer;">Login</span>
                         </div>
                     </v-form> 
                 </v-card-text>
                 <v-card-text>
                     <v-layout  justify-end>
-                        <v-btn @click="ingresar" round depressed color="#1976D2" dark>Registrase</v-btn>
+                        <v-btn @click="ingresar" round depressed color="#059FDE" dark>Registrase</v-btn>
                     </v-layout>
                 </v-card-text>
             </v-card>
