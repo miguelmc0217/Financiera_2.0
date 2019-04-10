@@ -6,3 +6,12 @@ C:\Users\USER\source\repos\proyecto adm\src\persistence\Persistence.DbContext\ob
 C:\Users\USER\source\repos\proyecto adm\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.AssemblyInfo.cs
 C:\Users\USER\source\repos\proyecto adm\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.dll
 C:\Users\USER\source\repos\proyecto adm\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.pdb
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\bin\Debug\netcoreapp2.1\Persistence.DbContext.deps.json
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\bin\Debug\netcoreapp2.1\Persistence.DbContext.dll
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\bin\Debug\netcoreapp2.1\Persistence.DbContext.pdb
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.csprojAssemblyReference.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.csproj.CoreCompileInputs.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.AssemblyInfoInputs.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.AssemblyInfo.cs
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.dll
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\persistence\Persistence.DbContext\obj\Debug\netcoreapp2.1\Persistence.DbContext.pdb

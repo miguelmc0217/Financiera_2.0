@@ -12,3 +12,17 @@ C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.
 C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.RazorTargetAssemblyInfo.cache
 C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.dll
 C:\Users\USER\source\repos\proyecto adm\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.pdb
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.deps.json
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.runtimeconfig.json
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.runtimeconfig.dev.json
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.dll
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\bin\Debug\netcoreapp2.1\Base.Api.pdb
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.csprojAssemblyReference.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.csproj.CoreCompileInputs.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.RazorAssemblyInfo.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.RazorAssemblyInfo.cs
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.AssemblyInfoInputs.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.AssemblyInfo.cs
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.RazorTargetAssemblyInfo.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.dll
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\apis\Base.Api\obj\Debug\netcoreapp2.1\Base.Api.pdb
