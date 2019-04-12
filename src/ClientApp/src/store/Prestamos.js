@@ -12,7 +12,7 @@ export default {
     },
     actions: {
         getPrestamos({ commit }) {
-            axios.get('https://nuevo-estilo.firebaseio.com/prestamos.json', {
+            axios.get('https://localhost:44350/api/Prestamoes', {
                     "Content-Type": "application/json"
                 })
                 .then(respuesta => {

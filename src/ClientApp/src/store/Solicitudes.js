@@ -19,7 +19,7 @@ export default {
         getSolicitudes({
             commit
         }) {
-            axios.get('https://nuevo-estilo.firebaseio.com/solicitudes.json', {
+            axios.get('https://localhost:44350/api/Solicituds', {
                     "Content-Type": "application/json"
                 })
                 .then(respuesta => {
@@ -32,7 +32,7 @@ export default {
         enviarSolicitud({
             state
         }) {
-            axios.post('https://nuevo-estilo.firebaseio.com/solicitudes.json', state.solicitante, {
+            axios.post('https://localhost:44350/api/Solicituds', state.solicitante, {
                     "Content-Type": "application/json"
                 })
                 .then(respuesta => {
