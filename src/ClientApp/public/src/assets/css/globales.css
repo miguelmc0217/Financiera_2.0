@@ -1,0 +1,17 @@
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #212121;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #cecece;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #474545;
+}
+
+.v-content__wrap {
+    background: #f8f7f5 !important;
+    font-size: 15px !important;
+}
