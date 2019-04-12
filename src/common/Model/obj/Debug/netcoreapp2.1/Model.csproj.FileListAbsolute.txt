@@ -7,3 +7,12 @@ C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1
 C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
 C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.dll
 C:\Users\USER\source\repos\proyecto adm\src\common\Model\obj\Debug\netcoreapp2.1\Model.pdb
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\bin\Debug\netcoreapp2.1\Model.deps.json
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\obj\Debug\netcoreapp2.1\Model.csprojAssemblyReference.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\obj\Debug\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\obj\Debug\netcoreapp2.1\Model.dll
+C:\Users\mjmer\Source\Repos\Financiera_2.0\src\common\Model\obj\Debug\netcoreapp2.1\Model.pdb
